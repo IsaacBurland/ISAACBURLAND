@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISAAC BURLAND</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /*Pointer coarse?*/
+    
+    @media (pointer: coarse) {.menutext {opacity: 1;}}
+
+    @media (pointer: fine) {.menutext {opacity: 0;}}
+
+    h1 {font-family:  Helvetica, sans-serif;
+      position: absolute;
+      color: white;
+      font-size: 5vmax;
+      font-weight: bold;;
+      opacity: 1;}
+
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(100px, 1fr));
+      grid-template-rows: repeat(2, minmax(100px, 1fr));
+      gap: 0px;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .collage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .image:hover {filter: invert(100%); cursor: pointer;}
+
+    a {text-decoration: none;}
+
+    @media(max-width: 420px) {.hover-text {
+      font-family:  Helvetica, sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 5vmax;
+      font-weight: bold;
+      text-align: center;
+      opacity: 0;
+    }}
+
+    @media(min-width: 420px) {.hover-text {
+      font-family:  Helvetica, sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 5vmin;
+      font-weight: bold;
+      text-align: center;
+      opacity: 0;}}
+
+    .image:hover .hover-text {
+      opacity: 1;
+    }
+
+    .image:hover .menutext {
+      opacity: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="collage">
+    <a class="image" href="LISTEN.html"><img src="PHOTO 1-min.png" alt="LISTEN"><div class="hover-text">LISTEN</div><div><h1 style= align-items:center;justify-items:center;position:absolute;top:25%;left:25%;transform:translate(-50%,-50%) class="menutext" >LISTEN</h1></div></a>
+    <a class="image" href="WATCH.html"><img src="PHOTO 2-min.png" alt="WATCH"><div class="hover-text">WATCH</div><div><h1 style= align-items:center;justify-items:center;position:absolute;top:25%;left:75%;transform:translate(-50%,-50%) class="menutext" >WATCH</h1></div></a>
+    <a class="image" href="ABOUT.html"><img src="PHOTO 3-min.png" alt="ABOUT"><div class="hover-text">ABOUT</div><div><h1 style= align-items:center;justify-items:center;position:absolute;top:75%;left:25%;transform:translate(-50%,-50%) class="menutext" >ABOUT</h1></div></a>
+    <a class="image" href="CONTACT.html"><img src="PHOTO 4-min.png" alt="CONTACT"><div class="hover-text">CONTACT</div><div><h1 style= align-items:center;justify-items:center;position:absolute;top:75%;left:75%;transform:translate(-50%,-50%) class="menutext" >CONTACT</h1></div></a>
+    
+  </div>
+</body>
+</html>

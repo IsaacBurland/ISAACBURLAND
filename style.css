@@ -1,0 +1,116 @@
+
+
+.image:hover {filter: invert(100%); cursor: pointer;}
+
+.sticky {
+      position: sticky;
+      top: 0;
+      padding: 1vh;}
+
+.responsive-media {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+  .responsive-media iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 16/9;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+iframe {display: inline-block;}
+
+/*pointer coarse?*/
+
+@media(max-width: 420px) {.layout {
+      display: inline-block;
+      
+}}
+
+@media(min-width: 420px) {.layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      
+      }}
+
+
+@media(min-width: 420px) {.centrepage {
+      padding-top: 20vh;
+     
+}}
+
+@media(max-width: 420px) {.linebreak {
+      word-break: break-all;
+}}
+
+
+@media(max-width: 420px) {.image {
+      
+      display: inline-block;
+      width: 20vmax; 
+      height: 20vmax;
+      }}
+
+@media(min-width: 420px) {.image {
+      
+      display: inline-block;
+      width: 20vmin; 
+      height: 20vmin;
+      }}
+   
+@media(max-width: 420px) {p {
+      font-family:  Helvetica, sans-serif;
+      position: relative;
+      
+      transform: translate(0%, 0%);
+      color: rgb(255, 237, 237);
+      font-size: 5vmax;
+      font-weight: bold;
+      padding-right: 2%;
+      opacity: 1;
+    ;
+    }}
+
+@media(min-width: 420px) {p {
+      font-family:  Helvetica, sans-serif;
+      position: relative;
+      
+      transform: translate(0%, 0%);
+      color: rgb(255, 237, 237);
+      font-size: 5vmin;
+      font-weight: bold;
+      justify-content: center;
+      text-justify: center;
+      padding-right: 2%;
+      opacity: 1;
+      margin-top: 1;}}
+
+a {text-decoration: none;}
+
+
+      
+p a {
+      color: rgb(255, 237, 237);
+      text-decoration: none;
+      
+    }
+    
+p a:visited,
+
+p a:active {
+      color: rgb(255, 237, 237);
+    }
+
+p a:hover {color: black; background-color: rgb(255, 237, 237);}
+
+.highlight {background-color: black;}
