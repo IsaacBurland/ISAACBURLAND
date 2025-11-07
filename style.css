@@ -57,7 +57,6 @@ iframe {display: inline-block;}
 @media(max-width: 420px) {.layout {
       display: grid;
       grid-template-rows: auto;
-      padding-right: 10%
 }}
 
 @media(min-width: 420px) {.layout {
@@ -138,5 +137,6 @@ p a:active {
 p a:hover {color: black; background-color: rgb(255, 237, 237);}
 
 .highlight {background-color: black;}
+
 
 
