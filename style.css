@@ -7,7 +7,7 @@
       padding: 1vh;
       z-index: 1000;
       height: 20vmin;
-      width: 100vw;
+      
 }}
 
 
@@ -137,3 +137,4 @@ p a:active {
 p a:hover {color: black; background-color: rgb(255, 237, 237);}
 
 .highlight {background-color: black;}
+
