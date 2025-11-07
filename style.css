@@ -20,7 +20,7 @@
 
 
 
-.image:hover {filter: invert(100%); cursor: pointer;}
+.image:hover {filter: invert(100%); cursor: pointer;  border-radius: 10%; transition: .2s;}
 
 .sticky {
       position: sticky;
@@ -139,6 +139,7 @@ p a:active {
 p a:hover {color: black; background-color: rgb(255, 237, 237);}
 
 .highlight {background-color: black;}
+
 
 
 
