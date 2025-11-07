@@ -82,6 +82,7 @@ iframe {display: inline-block;}
       display: inline-block;
       width: 20vmin; 
       height: 20vmin;
+      border-radius: 100%
       }}
 
 @media(min-width: 420px) {.image {
@@ -89,6 +90,7 @@ iframe {display: inline-block;}
       display: inline-block;
       width: 20vmin; 
       height: 20vmin;
+      border-radius: 100%
       }}
    
 @media(max-width: 420px) {p {
@@ -137,6 +139,7 @@ p a:active {
 p a:hover {color: black; background-color: rgb(255, 237, 237);}
 
 .highlight {background-color: black;}
+
 
 
 
