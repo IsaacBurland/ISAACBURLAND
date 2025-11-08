@@ -85,13 +85,23 @@
       text-align: center;
       opacity: 0;}}
 
-    .image:hover .hover-text {
-      opacity: 1;
-    }
 
-    .image:hover .menutext {
+    @media(pointer: coarse) {.image:hover .hover-text {
       opacity: 0;
-    }
+    }}
+
+    @media(pointer: fine) {.image:hover .hover-text {
+      opacity: 1;
+    }}
+
+    @media(pointer: coarse) {.image:hover .menutext {
+      opacity: 0;
+    }}
+
+    @media(pointer: fine) {.image:hover .menutext {
+      opacity: 0;
+    }}
+    
 
   </style>
 </head>
@@ -105,4 +115,5 @@
   </div>
 </body>
 </html>
+
 
