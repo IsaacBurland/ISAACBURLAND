@@ -1,150 +1,113 @@
 
+/*@media (max-width: 1500px) {.emrys {padding-left: 2%;}}*/
+/*pointer coarse*/
+@media (max-width: 1500px), (pointer: coarse) {.menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+/*POINTER COARSE*/
+@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 60%; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
 
+/*pointer coarse*/
+@media (max-width: 1500px), (pointer: coarse) {.menu-blur {z-index: 10; padding-top: 5vh; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px);}
+}
 
-@media(max-width: 420px) {header {
-      position: sticky;
-      top: 0;
-      padding: 1vh;
-      z-index: 1000;
-      height: 20vmin;
-      
-}}
+/*pointer coarse*/
+@media (max-width: 1500px), (pointer: coarse) {.header {padding-left: 5vw; position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+/*pointer coarse*/
+@media (max-width: 1500px), (pointer: coarse) {.header-blur {padding-left: 5vw; position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px);}
+}
 
+@media (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
+/*pointer coarse*/
+@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 12vmax;}}
 
-@media(min-width: 420px) {header {
-      position: sticky;
-      top: 0;
-      padding: 1vh;
-      z-index: 1000;
-}}
+@media (max-width: 420px), (pointer: coarse) {.centre-menu-items {width: 25vmax;}}
+/*pointer coarse*/
+@media (max-width: 420px), (pointer: coarse) {.mountain {width: 20vmax; position: absolute; transform: translate(-50%, -50%);}}
 
+@media (max-width: 420px), (pointer: coarse) {.logo {width: 30vmax; position: absolute; transform: translate(-50%, -50%);}}
 
+@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 25vh; padding-bottom: 20vh;}}
+            
+@media (max-width: 420px), (pointer: coarse) {h1 {font-size: 12vmax}}
 
-.image:hover {filter: invert(100%); cursor: pointer;  border-radius: 0%; transition: .2s;}
+@media (max-width: 1500px), (pointer: coarse) {p {padding-left: 2%;}}
 
-.sticky {
-      position: sticky;
-      top: 0;
-      padding: 1vh;
-      z-index: 1000;
-      }
+@media (max-width: 420px), (pointer: coarse) {p {font-size: 7vmax}}
 
-.responsive-media {
+@media (max-width: 420px), (pointer: coarse) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-width: 90vmax; opacity: 0}
+            }
+            
+@media (max-width: 500px), (pointer: coarse) {.center {
     position: relative;
-    width: 100%;
-    aspect-ratio: 16/9;
-    align-items: center;
-    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50vh); display: flex; justify-content: center; align-items: center;}}
 
-    
-  }
+           
 
-  .responsive-media iframe {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    aspect-ratio: 16/9;
-    align-items: center;
-    justify-content: center;
-    
-  }
+            /*keep below as breakpoint margins, set above as pointer coarse?*/
 
-iframe {display: inline-block;}
-
-/*pointer coarse?*/
-
-@media(max-width: 420px) {.layout {
-      display: grid;
-      grid-template-rows: auto;
-}}
-
-@media(min-width: 420px) {.layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-
-      
-      }}
-
-
-@media(min-width: 420px) {.centrepage {
-      padding-top: 20vh;
      
-}}
+/*@media (min-width: 1500px) {.emrys {padding-left: 20%;}}*/
 
-@media(max-width: 420px) {.linebreak {
-      word-break: break-all;
-}}
+@media (min-width: 1500px) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media (min-width: 1500px) {.centre-menu {z-index: 10; position: fixed; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media (min-width: 1500px) {.menu-blur {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media (min-width: 1500px) {.header {position: fixed; z-index: 10; top: 10vh; left: 0; right: 0; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 10vh; left: 0; right: 0; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media (min-width: 1500px) {.contactinfo {position: absolute; transform: translate(0%, 100%); margin-right: 17vw; margin-left: 17vw; }}
+
+@media (min-width: 420px) {.menu-items {width: 6vmin;}}
+
+@media (min-width: 420px) {.centre-menu-items {width: 15vmin;}}
+
+@media (min-width: 420px) {.mountain {width: 12vmin; position: absolute; transform: translate(-50%, -50%);}}
 
 
-@media(max-width: 420px) {.image {
-      z-index: 1000;
-      display: inline-block;
-      width: 20vmin; 
-      height: 20vmin;
-      border-radius: 100%;
-      transition: .2s
-      }}
+@media (min-width: 420px) {.logo {width: 20vmin; position: absolute; transform: translate(-50%, -50%);}}
 
-@media(min-width: 420px) {.image {
-      z-index: 1000;
-      display: inline-block;
-      width: 20vmin; 
-      height: 20vmin;
-      border-radius: 100%;
-      transition: .2s
-      }}
-   
-@media(max-width: 420px) {p {
-      font-family:  Helvetica, sans-serif;
-      position: relative;
-      z-index: 0;
-      transform: translate(0%, 0%);
-      color: rgb(255, 237, 237);
-      font-size: 5vmax;
-      font-weight: bold;
-      padding-right: 2%;
-      opacity: 1;
-    ;
-    }}
+@media (min-width: 420px) {h1 {font-size: 7vmin;}}
 
-@media(min-width: 420px) {p {
-      font-family:  Helvetica, sans-serif;
-      position: relative;
-      z-index: 0;
-      transform: translate(0%, 0%);
-      color: rgb(255, 237, 237);
-      font-size: 5vmin;
-      font-weight: bold;
-      justify-content: center;
-      text-justify: center;
-      padding-right: 2%;
-      opacity: 1;
-      margin-top: 1;}}
 
+
+@media (min-width: 420px) {p {font-size: 3vmin;}}
+
+@media (min-width: 420px) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-height: 70vmin; opacity: 1}
+            }
+            
+ @media (min-width: 1500px) {.block {position: absolute; text-justify: center; margin-right: 17vw; margin-left: 17vw; margin-top: 20vh;}}
+
+@media (min-width: 500px) {.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%); display: flex; justify-content: center; align-items: center;}}
+
+h1 {font-family: Arial, Helvetica, sans-serif; color: lch(44.3 91.6 40.9);}
+            
 a {text-decoration: none;}
 
-
-      
-p a {
-      color: rgb(255, 237, 237);
-      text-decoration: none;
-      
-    }
-    
-p a:visited,
-
-p a:active {
-      color: rgb(255, 237, 237);
-    }
-
-p a:hover {color: black; background-color: rgb(255, 237, 237);}
-
-.highlight {background-color: black;}
+.link-pic {position: absolute; transform: translate(-50%, 0); max-width: 90vmax; opacity: 0; z-index: 0;}
+            
+p {font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0);}
+            
 
 
 
+.mailing-list {color: lch(44.3 91.6 40.9); background-color: black; }
+            
+.hover-effect:hover {cursor: pointer; color: black; background-color: lch(44.3 91.6 40.9);}
 
-
-
-
+            
